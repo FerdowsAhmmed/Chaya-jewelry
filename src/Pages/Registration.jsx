@@ -1,15 +1,18 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import app from "../Firebase//firebase.config";
+import app from "../Firebase/firebase.config";
+
 const Registration = () => {
-  const [formData, setFormData] = useState({
+  const initialFormData = {
     name: "",
     email: "",
     password: "",
     confirmPassword: "",
     photoUrl: "",
-  });
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,9 +38,11 @@ const Registration = () => {
 
       // User registration was successful
       console.log("User registration successful:", userCredential.user);
-      
-      // You can add additional logic here, such as updating user profile information.
 
+      // Reset the form fields
+      setFormData(initialFormData);
+
+      // You can add additional logic here, such as updating user profile information.
     } catch (error) {
       // Handle registration errors
       console.error("Error registering user:", error.message);
