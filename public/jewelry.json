@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Diamond Solitaire Necklace",
+      "description": "Elegant diamond solitaire necklace with a stunning round-cut diamond pendant.",
+      "price": 999.99,
+      "image": "https://i.ibb.co/1qBzKg8/neckles1.jpg",
+      "category": "Necklaces"
+    },
+    {
+      "id": 2,
+      "name": "Sapphire and Diamond Ring",
+      "description": "Exquisite sapphire and diamond ring featuring a deep blue sapphire surrounded by brilliant diamonds.",
+      "price": 799.95,
+      "image": "https://i.ibb.co/zGWPnLR/ring1.jpg",
+      "category": "Rings"
+    },
+    {
+      "id": 3,
+      "name": "Pearl Earrings",
+      "description": "Classic pearl earrings with lustrous freshwater pearls and white gold settings.",
+      "price": 149.99,
+      "image": "https://i.ibb.co/DMyksDC/earring1.jpg",
+      "category": "Earrings"
+    },
+    {
+      "id": 4,
+      "name": "Emerald Tennis Bracelet",
+      "description": "Stunning emerald tennis bracelet with emerald-cut emeralds and diamond accents.",
+      "price": 1199.50,
+      "image": "https://i.ibb.co/qFP9HbT/bracelet1.jpg",
+      "category": "Bracelets"
+    },
+    {
+      "id": 5,
+      "name": "Gold Hoop Earrings",
+      "description": "Chic and versatile gold hoop earrings crafted from 18k gold.",
+      "price": 179.99,
+      "image": "https://i.ibb.co/93RLVD6/earring2.jpg",
+      "category": "Earrings"
+    },
+    {
+      "id": 6,
+      "name": "Ruby Pendant Necklace",
+      "description": "Striking ruby pendant necklace with a vibrant oval-cut ruby gemstone and diamond accents.",
+      "price": 899.00,
+      "image": "https://i.ibb.co/Nnb2b1j/original-triple-layer-necklace.jpg",
+      "category": "Necklaces"
+    },
+    {
+      "id": 7,
+      "name": "Amethyst Stud Earrings",
+      "description": "Beautiful amethyst stud earrings featuring deep purple amethyst gemstones in sterling silver settings.",
+      "price": 69.99,
+      "image": "https://i.ibb.co/m5JvbXf/earring3.jpg",
+      "category": "Earrings"
+    },
+    {
+      "id": 8,
+      "name": "Tanzanite Cluster Ring",
+      "description": "Gorgeous tanzanite cluster ring with a cluster of tanzanite gemstones and diamond accents.",
+      "price": 1295.00,
+      "image": "https://i.ibb.co/Mfr6d0j/ring2.png",
+      "category": "Rings"
+    },
+    {
+      "id": 9,
+      "name": "Silver Bangle Bracelet",
+      "description": "Simple and elegant silver bangle bracelet crafted from sterling silver.",
+      "price": 49.95,
+      "image": "https://i.ibb.co/QdqbCX7/bracelet2.jpg",
+      "category": "Bracelets"
+    },
+    {
+      "id": 10,
+      "name": "Citrine Drop Earrings",
+      "description": "Gorgeous citrine drop earrings featuring pear-shaped citrine gemstones and diamond accents.",
+      "price": 248.99,
+      "image": "https://i.ibb.co/hdm2m7Y/earring4.jpg",
+      "category": "Earrings"
+    }
+  ]
+  
