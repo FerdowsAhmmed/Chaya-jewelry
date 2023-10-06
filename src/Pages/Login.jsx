@@ -89,6 +89,9 @@ const Login = () => {
         <div className="text-center">
           {/* Add your social login buttons here */}
         </div>
+        <button className="bg-orange-600 p-2 rounded-xl font-semibold text-white text-center w-full">
+          Sign in with Google
+        </button>
       </div>
     </div>
   );

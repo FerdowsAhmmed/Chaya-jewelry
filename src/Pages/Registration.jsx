@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import app from "../Firebase//firebase.config";
 const Registration = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -18,10 +19,29 @@ const Registration = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // You can add your registration logic here.
-    console.log(formData); // For testing purposes, log the form data.
+
+    // Initialize Firebase authentication
+    const auth = getAuth(app);
+
+    try {
+      // Create a new user with email and password
+      const userCredential = await createUserWithEmailAndPassword(
+        auth,
+        formData.email,
+        formData.password
+      );
+
+      // User registration was successful
+      console.log("User registration successful:", userCredential.user);
+      
+      // You can add additional logic here, such as updating user profile information.
+
+    } catch (error) {
+      // Handle registration errors
+      console.error("Error registering user:", error.message);
+    }
   };
 
   return (
