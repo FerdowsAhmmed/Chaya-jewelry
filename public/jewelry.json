@@ -34,7 +34,7 @@
     {
       "id": 5,
       "name": "Gold Hoop Earrings",
-      "description": "Chic and versatile gold hoop earrings crafted from 18k gold.",
+      "description": "Chic and versatile gold hoop earrings crafted from  gold hoop earrings crafted from  18k gold.",
       "price": 179.99,
       "image": "https://i.ibb.co/93RLVD6/earring2.jpg",
       "category": "Earrings"
@@ -50,7 +50,7 @@
     {
       "id": 7,
       "name": "Amethyst Stud Earrings",
-      "description": "Beautiful amethyst stud earrings featuring deep purple amethyst gemstones in sterling silver settings.",
+      "description": "Beautiful amethyst stud earrings amethyst gemstones in sterling silver settings.",
       "price": 69.99,
       "image": "https://i.ibb.co/m5JvbXf/earring3.jpg",
       "category": "Earrings"
@@ -66,7 +66,7 @@
     {
       "id": 9,
       "name": "Silver Bangle Bracelet",
-      "description": "Simple and elegant silver bangle bracelet crafted from sterling silver.",
+      "description": "Simple and elegant silver bangle bracelet crafted bangle bracelet crafted from sterling silver.",
       "price": 49.95,
       "image": "https://i.ibb.co/QdqbCX7/bracelet2.jpg",
       "category": "Bracelets"
